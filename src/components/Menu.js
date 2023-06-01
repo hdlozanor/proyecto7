@@ -41,7 +41,7 @@ function BarraMenu(){
             <AppBar position='static'>
                 <Toolbar>
                     <Typography variant="h6" className='title'>
-                        Perfil: {username}
+                        Perfil: {nombre}
                     </Typography>
                     <div>
                         <IconButton onClick={handleMenu} color="inherit">
@@ -53,7 +53,7 @@ function BarraMenu(){
                             open={open}
                             onClose={handleClose}
                         >
-                            <MenuItem onClick={handleLogout}> Logout </MenuItem>
+                            <MenuItem onClick={handleLogout}> Cerrar sesion </MenuItem>
                         </Menu>
                     </div>
                 </Toolbar>
