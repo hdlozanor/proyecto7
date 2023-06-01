@@ -1,0 +1,19 @@
+.root {
+    flex-grow: 1;
+}
+
+.title {
+    flex-grow: 1;
+
+}
+
+.large {
+    width: 20px;
+    height: 20px;
+}
+
+.enlace {
+    margin: 2rem;
+    font-size: 14pt;
+    background-color: aqua;
+}
